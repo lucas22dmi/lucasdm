@@ -1,0 +1,228 @@
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat/static/Montserrat-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.fading-on-scroll {
+  /* Ajusta el estilo del elemento según tus preferencias */
+
+  transition: opacity 0.7s ease; /* Ajusta la duración de la transición si lo deseas */
+}
+
+.title{
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.altoImg{
+  height: 500px !important;
+
+}
+
+.main-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.main-photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(2.5px); /* Aplica el efecto de blur */
+  opacity: 0.8;
+  z-index: -1; /* Coloca la foto detrás del logo */
+}
+
+.main-logo-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1; /* Coloca el logo encima de la foto con un índice superior */
+}
+
+.main-logo {
+  max-width: 100%;
+  width: 300px;
+  max-height: 100%;
+  margin: 0 60px; /* Espacio entre las dos imágenes del logo */
+}
+
+.marginNavi{
+  margin-bottom: 37px;
+}
+
+.backgroundStart{
+  background-color: rgba(255, 255, 255, 0.411);
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.backgroundButtons{
+  background-color: rgba(255, 255, 255, 0.836);
+
+}
+
+.backgroundWhatssap{
+  background-color: #17b651 !important;
+  color: white !important;
+}
+
+.backgroundForm{
+  background-color: #673ab7 !important;
+  color: white !important;
+}
+
+.heigthPhotos{
+  height: 500px;
+  object-fit: cover;
+}
+
+.slick-slide {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.slick-slide img {
+  /* Opción 1: Establecer un tamaño fijo */
+  width: 100%; /* Ajusta el ancho según lo desees */
+  height: 100%; /* Ajusta la altura según lo desees */
+
+  /* Opción 2: Ajustar al tamaño del carrusel */
+  /* width: 100%;
+  height: 100%; */
+}
+
+.widthSlider{
+  margin: 0 20px;
+}
+
+.slick-track{
+  display: flex !important;
+  align-items: center !important;
+}
+
+.mainColor{
+  background-color: #160000 !important;
+  color: white !important;
+}
+
+.navbar-toggler-icon {
+  background-color: transparent; /* Asegura que el fondo sea transparente */
+                    filter: brightness(0) invert(1); /* Invierte el color del icono */
+}
+
+.normalized-image {
+
+  min-height: 300px !important; /* Tamaño deseado */
+  max-height: 301px !important;
+  object-fit: cover !important; /* Escalar la imagen para llenar el contenedor manteniendo la proporción */
+}
+
+.vv{
+  height: 200px;
+}
+
+.imgNormalize{
+  height: 190px;
+  object-fit: contain;
+}
+
+.ff{
+  color: white !important;
+
+}
+
+.bb {
+  height: 40px;
+  width: 80px;
+}
+
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1.5s;
+}
+
+.show{
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateX(0%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.vv{
+  max-height: 100px !important;
+  max-width: 100px !important;
+}
+
+@media screen and (max-width: 600px) 
+{
+
+  .vv{
+    max-height: 70px !important;
+    max-width: 70px !important;
+  }
+  
+
+  .widthSlider{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .main-logo-container {
+
+    flex-direction: column;
+  }
+
+  .main-logo {
+    max-width: 450px;
+    max-height: 250px;
+
+  }
+  
+  .main-container {
+
+    height: 500px;
+
+  }
+
+  .marginNavi{
+    margin-bottom: 0px;
+  }
+  
+  
+  
+}
