@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import GymData from './../../services/gyms.json'
+
 
 const GymsAdd = () =>{
 

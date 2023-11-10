@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 
 import MainPhoto from './../pictures/MAINPAGEWEB.jpg'
+import Main from './../pictures/Main.jpg'
 import MainPhotoPhone from './../pictures/MAINPAGEMOBILE.jpeg'
 import MainLogo from './../pictures/LOGOS/NAVI-LOGO.png'
 import DSSLogo from './../pictures/LOGOS/DSS.png'
@@ -21,7 +22,7 @@ const Logo = () => {
         <img class="main-logo img-fluid" src={DSSLogo} alt="DmitrukStrengthSystems" />
         <img class="main-logo img-fluid marginNavi" src={MainLogo} alt="NAVI" />
       </div>
-      <img class="main-photo" src={width > 500 ? MainPhoto : MainPhotoPhone} alt="Lucas Dmitruk" />
+      <img class="main-photo" src={width > 500 ? Main : MainPhotoPhone} alt="Lucas Dmitruk" />
     </div>
 
   

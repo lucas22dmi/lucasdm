@@ -40,24 +40,13 @@ const AboutMe = () => {
                         </div>
                         <div class="col-md-8">
                             <div class="card-body text-center">
-                                <h2 class="card-title my-4">Lucas Dmitruk</h2>
+                                <h2 class="card-title my-4 textLucas">Lucas Dmitruk</h2>
                                 <p class="card-text mx-2">
-                                    Lucas Dmitruk es un entrenador especializado
-                                    en el área del entrenamiento de fuerza.
-                                    Actualmente es atleta de Strongman (Cat
-                                    Open) y de Powerlifting (Cat -125kg). Con 10
-                                    años de experiencia y de estudio en el mundo
-                                    del entrenamiento pudo desarrollar un
-                                    criterio único de periodización que lo llevó
-                                    a obtener títulos nacionales tanto para él
-                                    como para sus atletas y participaciones en
-                                    eventos internacionales como el Arnold
-                                    Classic Strongman de Brasil.
+                                <span className="d-block mb-2">Cofundador del gimnasio y equipo <b>Natus Vincere</b>, atleta de <b>Strongman</b> & <b>Powerlifting</b> y entrenador especializado en el entrenamiento de la <b>fuerza</b>.</span> Con mas de <b>10 años de experiencia</b> y de formacion continua en el mundo del entrenamiento pude desarrollar un <b>sistema</b> y un criterio único de <b>periodización</b> que me llevó a obtener títulos <b>nacionales, records y podios</b> con mis alumnos, transformando sus fisicos y <b>mejorando su calidad de vida</b> en el proceso.
                                 </p>
                                 <div class="row justify-content-center mt-5">
-                                    <h3 className="col-8">
-                                        Comunicate conmigo mediante instagram o
-                                        whatsapp
+                                    <h3 className="col-8 textH2">
+                                        Comunicate conmigo mediante instagram o whatsapp
                                     </h3>
                                     <div className="col-12 col-sm-6">
                                         <div className="row justify-content-center mt-4">
@@ -97,7 +86,7 @@ const AboutMe = () => {
                 <div className="col-10 col-sm-6 text-center my-3">
 
                     <div className='row justify-content-center my-4 hidden'>
-                        <h3 className="col-12 mb-4">También podes encontarme en mis redes sociales</h3>
+                        <h3 className="col-12 mb-4 textH2">También podes encontarme en mis redes sociales</h3>
                         <div class="col-6 ">
                             <a href="https://www.youtube.com/@dmitrukstrengthsystems" title="instagram icons">
                               <img className='img-fluid vv' src={Youtube} alt="Youtube" />
@@ -123,7 +112,7 @@ const AboutMe = () => {
                         ¿Interesado en entrenamiento presencial?
                     </h2>
                     <p className="text-light">
-                        Podes encontrarme unicamente en Ripper (GBA zona sur).
+                        Podes encontrarme unicamente en Navi.
                     </p>
 
                     <p className="text-light">
@@ -135,7 +124,7 @@ const AboutMe = () => {
                 <div className="hidden">
                     <ul class="list-group list-group-flush text-center">
                         <li class="list-group-item ">Sede de entrenamiento</li>
-                        <li class="list-group-item ">Ripper Gym</li>
+                        <li class="list-group-item "><b>NAVI</b></li>
                         <li class="list-group-item ">
                             Juan Díaz de Solís 325 - Quilmes
                         </li>

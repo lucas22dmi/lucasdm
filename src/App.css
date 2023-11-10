@@ -1,6 +1,6 @@
 
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Helvetica Neue', sans-serif;
   src: url('./fonts/Montserrat/static/Montserrat-Light.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -32,6 +32,7 @@
 
 .main-container {
   position: relative;
+  align-items: start;
   width: 100%;
   height: 500px;
   overflow: hidden;
@@ -169,6 +170,29 @@
   opacity: 1;
   filter: blur(0px);
   transform: translateX(0%);
+}
+
+.textH2{
+  color: #500202 !important;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.textTitles{
+  color: #500202 !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.textParaphs{
+  font-weight: 400;
+}
+
+.textLucas{
+  font-weight: 1000;
+  color: #500202 !important;
+  font-size: 3.3em;
+  letter-spacing: 2px;
 }
 
 

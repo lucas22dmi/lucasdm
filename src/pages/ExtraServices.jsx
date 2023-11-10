@@ -29,20 +29,19 @@ const ExtraServices = () => {
     <main className="container-fluid">
       <article className="row justify-content-center ">
         <div className='col-8 text-center mb-3 hidden'>
-          <h2 className='my-4'>Servicios extra</h2>
-          <p>Hay 3 pilares fundamentales que complementan el exito de un buen programa de entrenamiento.</p>
+          <h2 className='my-4 textH2'>Trabajo interdisciplinario</h2>
+          <p>Considero que la forma mas eficiente y segura de alcanzar nuestros objetivos es trabajar de forma conjunta con todas las areas que complementan al entrenamiento.</p>
 
           <ul class="list-group list-group-flush text-center">
-            <li class="list-group-item "><b>Nutrición</b>, es importante darle a tu cuerpo lo necesario para mantener una buena condicion y performance.</li>
-            <li class="list-group-item "><b>Movilidad</b>, es la capacidad de tu cuerpo de alcanzar y mantener posiciones sin dolor, compensaciones y disfunciones.</li>
-            <li class="list-group-item "><b>Entrenamiento</b>, la importancia de un lugar con la atmosfera correcta y los elementos necesarios.</li>
+            <li class="list-group-item "><b>Nutrición</b>, para optimizar nuestra composicion corporal, nuestra salud y nuestra performance.</li>
+            <li class="list-group-item "><b>Movilidad</b>, para alcanzar y mantener posiciones sin dolor, compensaciones y disfunciones.</li>
           </ul>
 
-          <p>Por suerte en #DmitrukStrengthSystems te tenemos cubierto y como alumno automaticamente accedes a un <b>10% de descuento</b> en los servicios de nuestros colegas en nutricion, movilidad y de mensualidad en los gimnasios de fuerza adheridos.</p>
+          <p className='mt-3'>Al comenzar a trabajar conmigo accedes inmediatamente a un descuento especial en estos servicios de la mano de mi equipo de trabajo.</p>
 
         </div>
 
-        <div className='col-10 col-sm-5 hidden'>
+        <div className='col-10 col-sm-8 col-xxl-6 hidden'>
 
           <Persons />
 
@@ -53,10 +52,10 @@ const ExtraServices = () => {
       <article className="row justify-content-center">
 
         <div className='col-12 my-4 hidden'>
-          <h2 className='my-4 text-center'>Sponsors</h2>
+          <h2 className='my-4 text-center textH2'>Sponsors que nos acompañan</h2>
 
           <div className='row justify-content-center'>
-            <div className='col-10 col-sm-5'>
+            <div className='col-10 col-sm-8'>
               <Sponsors />
             </div>
           </div>

@@ -23,6 +23,9 @@ const Persons = () =>{
                 <li key={index} className="list-group-item">{item}</li>
               ))}
             </ul>
+              <a href={element.contact} target="blank" className="btn mainColor col-6">
+                  Ver Instagram
+              </a>
             </div>
           </div>
 

@@ -25,17 +25,17 @@ const progams = [
   {
     "img": Hipertrofia,
     "name":"Hipertrofia",
-    "item1":"Entrenamiento basado en el aumento de fuerza máxima y de la resistencia.",
-    "item2":"Preparacion fisica general para deportes.",
-    "item3":"Aumento de los niveles de músculo y descenso de los niveles de grasa.",
+    "item1":"Entrenamiento basado en aumentar la masa muscular y la fuerza maxima.",
+    "item2":"Aumento de los niveles de músculo y descenso de los niveles de grasa.",
+    "item3":"Objetivos esteticos.",
     "item4":"Comunicación semanal.",
     "item5":"Análisis y corrección técnica de tus levantamientos"
   },
   {
     "img": Fuerzayacondicionamiento,
     "name":"Fuerza & acondicionamiento",
-    "item1":" Entrenamiento basado en aumentar la fuerza máxima y la masa muscular.",
-    "item2":"Objetivos tanto recreativos cómo deportivos. Explotá tu potencial.",
+    "item1":"Entrenamiento basado en el aumento de fuerza máxima y de la resistencia.",
+    "item2":"Preparacion fisica general para deportes.",
     "item3":"Aumento del acondicionamiento físico.",
     "item4":"Comunicación semanal.",
     "item5":"Análisis y corrección técnica de tus levantamientos"

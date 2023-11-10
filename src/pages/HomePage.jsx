@@ -7,6 +7,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import ProgramsData from '../services/programs.js'
 import MainImg from './../pictures/MAINPAGEWEB.jpg'
+import Main from './../pictures/Main.jpg'
 
 import Bank from './../pictures/MEDIOS-DE-PAGO/bank.png'
 import MercadoPago from './../pictures/MEDIOS-DE-PAGO/mercado-pago.png'
@@ -62,23 +63,15 @@ const HomePage = () => {
         
       <div className="row justify-content-center ">
 
-        <div className="col-8 my-3 ">
-
-          <ul class="list-group list-group-flush text-center hidden">
-            <li class="list-group-item ">Powerlifting</li>
-            <li class="list-group-item ">Strongman</li>
-            <li class="list-group-item ">Acondicionamiento físico</li>
-          </ul>
-
-        </div>
-
-         
         <div className="row justify-content-center hidden">
 
-          <div className="col-10 col-sm-7">
-            <h2 class="text-center mb-3">Programas de entrenamiento</h2>
+          <div className="col-10 col-sm-7 mt-5 mb-4">
+            <h2 class="text-center mb-3 textH2">PROGRAMAS DE ENTRENAMIENTO</h2>
             <p class="text-center ">
-                Mis programas búscan llevar tus resultados al siguiente nivel. Por ello, se adaptan a tus objetivos y disponibilidad, así como al equipamiento del que dispongas. Están escritos de forma individual y no son genéricos. Cada cliente y alumno tienen sus propios objetivos y mis programas lo reflejan.
+                <span className="d-block my-3">Mis programas búscan llevar tus resultados al siguiente <b>nivel.</b></span> 
+                <span className="d-block my-3">Por ello, se adaptan a tus <b>objetivos</b> y <b>disponibilidad</b>, así como al equipamiento del que dispongas.</span>
+                <span className="d-block my-3">Están escritos de <b>forma individual</b> y no son genéricos.</span>
+                <span className="d-block mt-3 mb-4">Cada cliente y alumno tienen sus propios objetivos y <b>mis programas lo reflejan.</b></span>
             </p>
           </div>
 
@@ -92,13 +85,13 @@ const HomePage = () => {
                   <div class="card ">
                     <img src={element.img} class="card-img-top heigthPhotos" alt={element.name} />
                     <div class="card-body text-center">
-                      <h2 class="card-title">{element.name}</h2>
+                      <h2 class="card-title textTitles">{element.name}</h2>
                         <ul class="list-group list-group-flush text-center">
-                          <li class="list-group-item "><i class="bi bi-check-circle-fill"></i> {element.item1}</li>
-                          <li class="list-group-item "><i class="bi bi-check-circle-fill"></i> {element.item2}</li>
-                          <li class="list-group-item "><i class="bi bi-check-circle-fill"></i> {element.item3}</li>
-                          <li class="list-group-item "><i class="bi bi-check-circle-fill"></i> {element.item4}</li>
-                          <li class="list-group-item "><i class="bi bi-check-circle-fill"></i> {element.item5}</li>
+                          <li class="list-group-item textParaphs"><i class="bi bi-check-circle-fill"></i> {element.item1}</li>
+                          <li class="list-group-item textParaphs"><i class="bi bi-check-circle-fill"></i> {element.item2}</li>
+                          <li class="list-group-item textParaphs"><i class="bi bi-check-circle-fill"></i> {element.item3}</li>
+                          <li class="list-group-item textParaphs"><i class="bi bi-check-circle-fill"></i> {element.item4}</li>
+                          <li class="list-group-item textParaphs"><i class="bi bi-check-circle-fill"></i> {element.item5}</li>
                         </ul>                    
                       </div>
                   </div>
@@ -109,12 +102,20 @@ const HomePage = () => {
           </div>
         </div>
 
+        <div className="row justify-content-center mt-4">
+        
+            <iframe className="col-10 col-sm-8" height={400} src="https://www.youtube.com/embed/Ux9ENTialQw?si=AWG1inEmsrkwO36R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; " allowfullscreen></iframe>
+   
+
+
+        </div>
+
         <div class="main-container row-justify-content-center mt-5 ">
           <div class="col-11 col-sm-6  main-logo-container py-3 ">
             <div class="px-3 backgroundStart backgroundButtons hidden">
 
                 <div className=" text-center ">
-                  <h2 class="text-center mt-5 mb-4 ">Estás a dos pasos de empezar:</h2>
+                  <h2 class="text-center mt-5 mb-4 textH2">Estás a dos pasos de empezar:</h2>
                   <p class="text-center my-3 ">Elegí tu objetivo y dejame todos tus datos en este formulario de inscripción</p>
                 </div>
 
@@ -127,7 +128,7 @@ const HomePage = () => {
 
             </div>
           </div>
-          <img class="main-photo" src={MainImg} alt="Lucas Dmitruk" />
+          <img class="main-photo" src={Main} alt="Lucas Dmitruk" />
         </div>
 
 
@@ -138,8 +139,8 @@ const HomePage = () => {
 
           <div className="row justify-content-center align-items-center hidden">
               <div className="col-8 text-center my-4">
-                  <h2 className="mb-3">Medios de pago</h2>
-                  <p className="mb-3">Todos los medios de pago disponibles. Queremos que te preocupes por tu entrenamiento, por lo que la forma en la que abones, no sea un impedimento a la hora de comenzar.</p>
+                  <h2 className="mb-3 textH2">Medios de pago</h2>
+                  
               </div>
 
               <div className="col-12 col-sm-6 ">
